@@ -1,0 +1,17 @@
+.gallery {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 24px 156px;
+  padding: 0;
+}
+
+.gallery__image {
+  width: 360px;
+  height: 200px;
+}
+
+.hidden-scroll {
+  background-color: rgba(46, 47, 66, 80%);
+}
