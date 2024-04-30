@@ -59,6 +59,6 @@ if (emailInput.value === '' || messageInput.value === '') {
 }
 
 
-// console.log('hi');
+
 
 
