@@ -29,8 +29,7 @@ inputClick.addEventListener('input', ev => {
 
 inputClick.addEventListener('submit', ev => {
   ev.preventDefault(ev);
-
-  if (emailInput.value === '' || messageInput.value === '') {
+  if (emailInput.value.trim() === '' || messageInput.value.trim() === '') {
     alert('Будь ласка, заповніть усі поля');
     return;
   }
